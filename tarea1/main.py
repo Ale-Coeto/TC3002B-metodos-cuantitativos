@@ -31,6 +31,7 @@ def main():
     # Vector con media = 0 y varianza = 1
     data1 = crear_vector(0, 1, 500)
     graficar_histograma(data1, "Vector con media = 0 y varianza = 1")
+    print(np.sqrt(1))
 
     # Vector con media = 20 y varianza = 1
     data2 = crear_vector(20, 1, 500)
